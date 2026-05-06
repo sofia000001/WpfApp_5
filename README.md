@@ -25,6 +25,7 @@ String a = "Test";
 String message = "Hi";
 ```
 
+
 ## Контекстно-зависимые условия
 
 В программе реализованы следующие семантические проверки:
@@ -42,6 +43,7 @@ String a = "Two";
 **Сообщение:**
 Ошибка: идентификатор "a" уже объявлен
 
+
 ### 2. Совместимость типов
 Проверяется, что значением является строка.
 
@@ -52,6 +54,7 @@ String a = 123;
 
 **Сообщение:**
 Ожидалась строка
+
 
 ### 3. Допустимые значения
 Для строк проверяется корректность записи (наличие кавычек).
@@ -77,6 +80,7 @@ String a = "Hello;
 - type — тип переменной
 - value — значение переменной
 
+
 ### Пример AST
 Для строки:
 ```java
@@ -84,11 +88,14 @@ String name = "Hello";
 AST имеет вид:
 ```
 
+```java
 Program
   StringConstDeclNode
   ├── name: name
   ├── type: String
   └── value: "Hello"
+```
+
   
 ### Формат вывода AST
 AST выводится в текстовом виде с отступами:
@@ -97,6 +104,7 @@ AST выводится в текстовом виде с отступами:
 - каждый уровень вложенности смещается вправо
 
 Вывод осуществляется через MessageBox.
+
 
 ### CST / AST (графическое представление)
 
@@ -112,28 +120,34 @@ Program
 **1. Корректный ввод**
 ```java
 String a = "Hello";
-Результат:
 ```
+
+<img width="739" height="375" alt="image" src="https://github.com/user-attachments/assets/f7f54469-4b7e-467b-9d8e-ad90a4508833" />
+
 
 **2. Повторное объявление**
 
 ```java
 String a = "One";
 String a = "Two";
-Результат:
 ```
+
+<img width="811" height="413" alt="image" src="https://github.com/user-attachments/assets/9b136d21-b900-4057-b6fd-d6bc37ffd702" />
+
 
 **3. Ошибка синтаксиса**
 
 ```java
 String = "Hello";
-Результат:
 ```
+
+<img width="706" height="406" alt="image" src="https://github.com/user-attachments/assets/010e7d6f-53b3-4a7c-9a09-b3b388f5b14b" />
+
 
 **4. Нет точки с запятой**
 
 ```java
 String a = "Hello"
-Результат:
 ```
 
+<img width="695" height="406" alt="image" src="https://github.com/user-attachments/assets/33e35553-7a32-4c7e-8b34-cb6a63ba1850" />
