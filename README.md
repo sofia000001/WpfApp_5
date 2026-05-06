@@ -120,6 +120,7 @@ String a = "Hello";
 
 <img width="739" height="375" alt="image" src="https://github.com/user-attachments/assets/f7f54469-4b7e-467b-9d8e-ad90a4508833" />
 
+---
 
 **2. Повторное объявление**
 
@@ -130,6 +131,7 @@ String a = "Two";
 
 <img width="811" height="413" alt="image" src="https://github.com/user-attachments/assets/9b136d21-b900-4057-b6fd-d6bc37ffd702" />
 
+---
 
 **3. Ошибка синтаксиса**
 
@@ -139,6 +141,7 @@ String = "Hello";
 
 <img width="706" height="406" alt="image" src="https://github.com/user-attachments/assets/010e7d6f-53b3-4a7c-9a09-b3b388f5b14b" />
 
+---
 
 **4. Нет точки с запятой**
 
