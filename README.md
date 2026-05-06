@@ -150,3 +150,15 @@ String a = "Hello"
 ```
 
 <img width="695" height="406" alt="image" src="https://github.com/user-attachments/assets/33e35553-7a32-4c7e-8b34-cb6a63ba1850" />
+
+---
+
+## Инструкция по запуску
+1) Открыть проект в Visual Studio
+2) Собрать проект: Build → Build Solution
+3) Запустить программу: F5
+4) Ввести код в текстовое поле
+5) Нажать кнопку анализа
+6) Просмотреть:
+   - таблицу ошибок
+   - окно с AST
