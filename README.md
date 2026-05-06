@@ -108,11 +108,7 @@ AST выводится в текстовом виде с отступами:
 
 ### CST / AST (графическое представление)
 
-Program
- └── StringConstDecl
-      ├── name
-      ├── type
-      └── value
+<img width="1536" height="1024" alt="image" src="https://github.com/user-attachments/assets/8ca7933d-ce8a-4fd2-8f61-46578aff8347" />
 
 
 ## Тестовые примеры
